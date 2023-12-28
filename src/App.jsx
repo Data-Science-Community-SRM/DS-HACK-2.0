@@ -9,15 +9,15 @@ import Footer from "./components/footer/Footer"
 export default function App() {
   return (
    <div>
-    <Landing/>
+    {/*<Landing/>
     <About/>
     <Tracks/>
     <Prizes/>
     <Schedule/>
-    <Cheif/>
+  <Cheif/>*/}
   
     <Sponsors/>
-    <Footer/>
+    {/*<Footer/>*/}
    </div>
   )
 }
