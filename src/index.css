@@ -1,3 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Space+Mono:wght@700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: #efbbff;
+  background-image: url('/src/assets/dsc_logo.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.section-title {
+  font-family: "Orbitron", sans-serif;
+  color: #660066;
+  font-weight: 700;
+  font-size: 84px;
+;
+}
+
+.tier-title {
+  font-family: "Space Mono", monospace;
+  color: #660066;
+  font-size: 35px;
+}

@@ -15,6 +15,7 @@ export default function App() {
     <Prizes/>
     <Schedule/>
     <Cheif/>
+  
     <Sponsors/>
     <Footer/>
    </div>
