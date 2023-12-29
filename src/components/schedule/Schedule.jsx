@@ -1,6 +1,9 @@
 const Schedule = () => {
     return ( 
-        <p>this is schedule</p>
+        <section id="schedule">
+
+            <p>this is schedule page</p>
+        </section>
      );
 }
  

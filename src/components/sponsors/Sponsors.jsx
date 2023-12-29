@@ -1,6 +1,9 @@
 const Sponsors = () => {
     return ( 
-        <p>this is sponsors</p>
+        <section id="sponsors">
+
+            <p>this is sponsors page</p>
+        </section>
      );
 }
  

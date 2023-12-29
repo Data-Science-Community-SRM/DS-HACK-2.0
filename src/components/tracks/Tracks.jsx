@@ -1,6 +1,9 @@
 const Tracks = () => {
     return ( 
-        <p>this is tracks</p>
+        <section id="tracks">
+
+            <p>this is tracks page</p>
+        </section>
      );
 }
  

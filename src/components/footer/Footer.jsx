@@ -1,6 +1,9 @@
 const Footer = () => {
     return ( 
-        <p>this is footer</p>
+        <section id="contact">
+
+            <p>this is footer page</p>
+        </section>
      );
 }
  
