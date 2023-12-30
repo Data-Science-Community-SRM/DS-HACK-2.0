@@ -13,7 +13,7 @@ const Landing = () => {
             className=" hidden md:flex lg:flex xl:flex absolute top-[-0.8rem] right-0 h-[5rem] w-[5rem] transform rotate-180"
           />
           {/* navbar */}
-          <div className="pt-3">
+          <div className=" mt-2 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 pt-3">
             <div className="flex justify-center items-center">
               <Navbar />
             </div>
@@ -21,22 +21,22 @@ const Landing = () => {
         </div>
 
         {/* middle */}
-        <div className=" relative z-10 mt-20 sm:mt-6 md:mt-6 lg:mt-6 xl:mt-6 ">
+        <div className="mt-32 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 relative z-10 pt-10 sm:pt-15 md:pt-10 lg:pt-6 xl:pt-10 ">
           <div
-            className="flex justify-center items-center  h-[56vh] w-full xl:w-[100%] mx-auto sm:h-[70vh] md:h-[75vh] lg:h-[75vh] xl:h-[85vh]  bg-cover bg-center z-10 "
+            className="flex justify-center items-center  h-[49vh] w-full xl:w-[100%] mx-auto sm:h-[65vh] md:h-[70vh] lg:h-[74vh] xl:h-[84vh]  bg-cover bg-center z-10 "
             style={{
-              backgroundImage: `url("/images/bg2.png")`,
+              backgroundImage: `url("/images/Website.svg")`,
               // Responsive height
             }}
           >
             <div className="flex items-center justify-center absolute inset-0">
-              <div  className="text-white  text-4xl font-bold">DS Hack24</div>
+              <div  className="mt-6 sm:mt-4 md:mt-4 lg:mt-0 xl:mt-4 text-white text-4xl  sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl font-bold">DS Hack24</div>
             </div>
           </div>
         </div>
 
         {/* bottom */}
-        <div className=" mt-16 xl:mb-10 md:mt-4 lg:mt-6 flex justify-center items-center text-black font-bold text-xl z-40">
+        <div className=" mt-24  xl:mb-10 sm:mt-20 md:mt-15 lg:mt-14 xl:mt-6 flex justify-center items-center text-black font-bold text-xl z-40">
             <p>Register btn</p>
         </div>
         {/* <div
@@ -51,7 +51,7 @@ const Landing = () => {
           <img
             src="/images/cr1.svg"
             alt=""
-            className="absolute bottom-[-0.8rem] left-0 h-[7rem] w-[7rem]"
+            className=" hidden sm:flex md:flex lg:flex xl:flex absolute bottom-[-0.8rem] left-0 h-[7rem] w-[7rem]"
           />
         {/* </div> */}
       </div>

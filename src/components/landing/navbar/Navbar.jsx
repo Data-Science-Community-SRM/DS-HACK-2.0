@@ -1,4 +1,4 @@
-import React from 'react';
+import React ,{useState} from 'react';
 
 
 const Navbar = () => {
@@ -12,6 +12,17 @@ const Navbar = () => {
     { id: 5, label: 'Sponsors', path: '#sponsors' },
     { id: 6, label: 'Contact Us', path: '#contact' },
   ];
+
+  // const [drawerChecked, setDrawerChecked] = useState(false);
+
+  const handleHomeClick = (event) => {
+  event.preventDefault();
+ 
+  // console.log('Home clicked');
+  
+  // Scroll to the top of the page
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
 
   return (
     <div className="drawer z-50">
@@ -51,9 +62,12 @@ const Navbar = () => {
           <ul className="  menu menu-horizontal flex md:justify-end justify-center items-center space-x-0 text-[#efbbff] font-bold  text-center  text-base  lg:text-xl">
             {/* Navbar menu content here */}
             {navItems.map((item) => (
-              <li key={item.id} className="hover:text-white">
-                <a href={item.path}>{item.label}</a>
-              </li>
+               <li key={item.id} className="hover:text-white">
+               {/* Use onClick to handle the click event */}
+               <a href={item.path} onClick={item.label === 'Home' ? handleHomeClick : undefined}>
+                 {item.label}
+               </a>
+             </li>
             ))}
           </ul>
         </div>
@@ -66,11 +80,14 @@ const Navbar = () => {
         aria-label="close sidebar"
         className="drawer-overlay"
       ></label>
-      <ul className="pt-[1.5rem] menu p-4 w-60 min-h-full ext-[#efbbff] font-bold  text-center text-lg lg:text-xl gap-4 text-[#ce73ea] bg-fuchsia-300">
+      <ul className="pt-[1.5rem] menu p-4 w-60 min-h-full ext-[#efbbff] font-bold  text-center text-lg lg:text-xl gap-2 text-[#ce73ea] bg-fuchsia-300">
         {/* Sidebar content here */}
         {navItems.map((item) => (
-          <li key={item.id} className="bg-[#660066] rounded-xl  hover:text-white">
-            <a href={item.path}>{item.label}</a>
+          <li key={item.id} className="text-[#660066] rounded-xl  hover:text-white">
+            
+            <a href={item.path} onClick={item.label === 'Home' ? handleHomeClick : undefined}>
+                {item.label}
+              </a>
           </li>
         ))}
          <div className=''>
