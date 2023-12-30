@@ -21,7 +21,7 @@ const Landing = () => {
         </div>
 
         {/* middle */}
-        <div className="mt-32 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 relative z-10 pt-10 sm:pt-15 md:pt-10 lg:pt-6 xl:pt-10 ">
+        <div className="mt-24 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 relative z-10 pt-10 sm:pt-15 md:pt-10 lg:pt-6 xl:pt-10 ">
           <div
             className="flex justify-center items-center  h-[49vh] w-full xl:w-[100%] mx-auto sm:h-[65vh] md:h-[70vh] lg:h-[74vh] xl:h-[84vh]  bg-cover bg-center z-10 "
             style={{
@@ -36,7 +36,7 @@ const Landing = () => {
         </div>
 
         {/* bottom */}
-        <div className=" mt-24  xl:mb-10 sm:mt-20 md:mt-15 lg:mt-14 xl:mt-6 flex justify-center items-center text-black font-bold text-xl z-40">
+        <div className=" mt-10  xl:mb-10 sm:mt-8 md:mt-9 lg:mt-8 xl:mt-6 flex justify-center items-center text-black font-bold text-xl z-40">
             <p>Register btn</p>
         </div>
         {/* <div
