@@ -15,7 +15,7 @@ const Tracks = () => {
             <img src="../../../public/tracks/Component 25.png" alt="Component-25" className="absolute top-[53%] right-[27%] w-[12%] h-[7%] max-[345px]:w-[16%] max-[345px]:h-auto max-sm:top-[69.5%] max-sm:right-[20%] max-sm:w-[15%] max-sm:h-[3%]"/>
             <img src="../../../public/tracks/Component 14.png" alt="Component-14" className="absolute w-[20%] h-auto top-0 right-0 max-sm:hidden" />
             <img src="../../../public/tracks/Component 19.png" alt="Component-19" className="absolute bottom-0 left-0 w-[15%] h-auto max-sm:hidden" />
-            <img src="../../../public/about/colour.png" alt="colour" className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[60%] h-[95%] max-w-full max-h-full max-w-full max-h-full max-sm:h-[60%] max-sm:w-[73%] sm:w-[60%] max-md:h-[75%]" />
+            <img src="../../../public/about/colour.png" alt="colour" className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[60%] h-[95%] max-w-full max-h-full max-sm:h-[60%] max-sm:w-[73%] sm:w-[60%] max-md:h-[75%]" />
             <img src="../../../public/tracks/Rectangle 11.png" alt="Tracks" className="absolute top-[22%] left-[12%] w-[16%] h-[29%] max-[345px]:w-[35%] max-[345px]:h-auto max-sm:w-[30%] max-sm:h-[20%]" 
             onClick={handleRectangleClick} style={{ cursor: 'pointer' }}/>
                 <img src="../../../public/tracks/Rectangle 12.png" alt="Tracks" className="absolute bottom-[10.4%] left-[12%] w-[16%] h-[29%] max-[345px]:w-[35%] max-[345px]:h-auto max-sm:bottom-[5.4%] max-sm:left-[10%] max-sm:w-[30%] max-sm:h-[20%]"
