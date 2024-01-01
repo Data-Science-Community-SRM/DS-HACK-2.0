@@ -1,5 +1,10 @@
 const Prizes = () => {
-  return <p>this is prizes</p>;
+  return ( 
+    <section id="prizes">
+
+        <p>this is prize page</p>
+    </section>
+ );
 };
 
 export default Prizes;

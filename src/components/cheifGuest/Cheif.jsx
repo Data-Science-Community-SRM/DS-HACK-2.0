@@ -1,6 +1,9 @@
 const Cheif = () => {
     return ( 
-        <p>this is cheif guest</p>
+        <section id="cheif">
+
+            <p>this is cheif page</p>
+        </section>
      );
 }
  
