@@ -2,23 +2,23 @@ const data = [
     {
         title: "Platinum tier",
         sponsors: [
-            "/assets/placeholder.png"
+            "/assets/devfolio.png"
         ],
     },
     {
         title: "Gold tier",
         sponsors: [
-            "/assets/placeholder.png",
-            "/assets/placeholder.png",
-            "/assets/placeholder.png",
+            "/assets/gradvine.png",
+            "/assets/replit.png",
+            "/assets/solana.png",
         ]
     },
     {
         title: "Silver tier",
         sponsors: [
-            "/assets/placeholder.png",
-            "/assets/placeholder.png",
-            "/assets/placeholder.png",
+            "/assets/polygon.png",
+            "/assets/gradvine.png",
+            "/assets/onboard.png",
         ]
     }
 ]
@@ -43,16 +43,16 @@ const Sponsors = () => {
                 <div>
                     <h2 className="section-title text-4xl text-center p-16 z-40 sm:text-8xl">Sponsors</h2>
                 </div>
-                <div className="place-items-center">
+                <div className="items-center p-2">
                     {data.map((tier, index) => {
                         return (
-                            <div key={index} className="items-center grid ">
+                            <div key={index} className="">
                                 <h2 className="tier-title text-2xl text-center p-2 z-40 sm:text-4xl">{tier.title}</h2>
-                                <div className="mx-auto grid grid-cols-1 place-content-center sm:grid-cols-3 gap-4 p-4 w-fit">
+                                <div className="grid grid-cols-1 mx-auto place-items-center sm:grid-flow-col auto-cols-max gap-4 p-4 w-fit">
                                     {tier.sponsors.map((sponsor, index) => {
                                         return (
-                                            <div key={index} className="w-fit pe-8 ps-8">
-                                                <img className="mx-auto" src={sponsor} alt="sponsor" />
+                                            <div key={index} className=" bg-[#660066] flex h-36 w-36 rounded-2xl">
+                                                <img className="mx-auto object-contain p-2" src={sponsor} alt="sponsor" />
                                             </div>
                                         )
                                     })}
