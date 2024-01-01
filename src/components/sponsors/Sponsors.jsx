@@ -11,7 +11,7 @@ const data = [
             "/assets/placeholder.png",
             "/assets/placeholder.png",
             "/assets/placeholder.png",
-        ] 
+        ]
     },
     {
         title: "Silver tier",
@@ -43,15 +43,15 @@ const Sponsors = () => {
                 <div>
                     <h2 className="section-title text-4xl text-center p-16 z-40 sm:text-8xl">Sponsors</h2>
                 </div>
-                <div className="justify-items-center">
+                <div className="place-items-center">
                     {data.map((tier, index) => {
                         return (
-                            <div key={index} className="place-items-center">
+                            <div key={index} className="items-center grid ">
                                 <h2 className="tier-title text-2xl text-center p-2 z-40 sm:text-4xl">{tier.title}</h2>
-                                <div className="place-items-center grid grid-cols-1 sm:grid-cols-3 gap-4 p-4">
+                                <div className="mx-auto grid grid-cols-1 place-content-center sm:grid-cols-3 gap-4 p-4 w-fit">
                                     {tier.sponsors.map((sponsor, index) => {
                                         return (
-                                            <div key={index} className="w-fit">
+                                            <div key={index} className="w-fit pe-8 ps-8">
                                                 <img className="mx-auto" src={sponsor} alt="sponsor" />
                                             </div>
                                         )
@@ -61,6 +61,20 @@ const Sponsors = () => {
                         )
                     })}
                 </div>
+            </div>
+            <div>
+                <svg width="285" height="239" viewBox="0 0 285 239" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M51.3823 185.474L25.2867 230.751L-26.9044 230.751L-53 185.474L-26.9044 140.197L25.2867 140.197L51.3823 185.474Z" fill="#660066" />
+                    <path d="M206.713 186.719L180.618 231.996L128.427 231.996L102.331 186.719L128.427 141.442L180.618 141.442L206.713 186.719Z" fill="#660066" />
+                    <path d="M129.669 52.2812L103.573 97.5581L51.3822 97.5581L25.2866 52.2812L51.3822 7.00436L103.573 7.00436L129.669 52.2812Z" fill="#660066" />
+                    <path d="M129.669 140.662L103.573 185.939L51.3822 185.939L25.2866 140.662L51.3822 95.3847L103.573 95.3847L129.669 140.662Z" fill="#AB1DCC" />
+                    <path d="M285 140.662L258.904 185.939L206.713 185.939L180.618 140.662L206.713 95.3847L258.904 95.3847L285 140.662Z" fill="#AB1DCC" />
+                    <path d="M206.713 95.8491L180.618 141.126L128.427 141.126L102.331 95.8491L128.427 50.5722L180.618 50.5722L206.713 95.8491Z" fill="#D896FF" />
+                    <path d="M51.3823 95.8491L25.2867 141.126L-26.9044 141.126L-53 95.8491L-26.9044 50.5722L25.2867 50.5722L51.3823 95.8491Z" fill="#D896FF" />
+                    <path d="M129.669 231.531L100.467 231.531L53.8675 231.531L25.2866 231.531L51.3822 186.254L103.573 186.254L129.669 231.531Z" fill="#D896FF" />
+                    <path d="M285 231.996L255.798 231.996L209.199 231.996L180.618 231.996L206.713 186.719L258.904 186.719L285 231.996Z" fill="#D896FF" />
+                </svg>
+
             </div>
         </section>
     );
