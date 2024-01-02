@@ -3,7 +3,7 @@ import Dialog from './Dialog';
 
 const Card = ({title, description, details}) => {
     return (
-        <div className="card w-64 p-4 bg-secondary shadow-xl" onClick={()=>document.getElementById(title).showModal()}>
+        <div className="card w-64 p-4 bg-secondary shadow-xl clip-2" onClick={()=>document.getElementById(title).showModal()}>
             <figure><img src={`/tracks/${title}.png`} width={100} alt={title} /></figure>
             <div className="card-body p-2 text-white">
                 <h2 className="card-title">{title}</h2>

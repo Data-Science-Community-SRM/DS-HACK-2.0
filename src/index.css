@@ -14,6 +14,9 @@ body {
 .clip{
   clip-path: polygon(0 0, 86% 0, 100% 16%, 100% 70%, 100% 100%, 16% 100%, 0 86%, 0% 30%);
 }
+.clip-2{
+  clip-path: polygon(0 0, 100% 0, 100% 16%, 100% 70%, 75% 100%, 16% 100%, 0 100%, 0% 30%);
+}
 
 .section-title {
   font-family: "Orbitron", sans-serif;
