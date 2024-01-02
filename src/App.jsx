@@ -1,6 +1,6 @@
 import Landing from "./components/Landing"
 import About from "./components/About"
-import Tracks from "./components/tracks/Tracks"
+import Tracks from "./components/Tracks"
 import Prizes from "./components/prizes/Prizes"
 import Schedule from "./components/schedule/Schedule"
 import Cheif from "./components/cheifGuest/Cheif"
