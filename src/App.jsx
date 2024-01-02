@@ -2,10 +2,11 @@ import Landing from "./components/Landing"
 import About from "./components/About"
 import Tracks from "./components/Tracks"
 import Prizes from "./components/prizes/Prizes"
-import Schedule from "./components/schedule/Schedule"
+import FAQ from "./components/FAQ"
 import Cheif from "./components/cheifGuest/Cheif"
 import Sponsors from "./components/sponsors/Sponsors"
 import Footer from "./components/footer/Footer"
+import Schedule from "./components/Schedule"
 
 export default function App() {
 
@@ -46,6 +47,7 @@ export default function App() {
         <Tracks/>
         <Prizes/>
         <Schedule/>
+        <FAQ/>
         <Cheif/>
         <Sponsors/>
         <Footer/>
