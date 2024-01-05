@@ -1,38 +1,79 @@
 import Accordion from "./ui/Accordion";
 
 const FAQ = () => {
-
   const questions = [
     {
-      question: "What is the purpose of this website?",
-      answer: "The purpose of this website is to provide a platform for people to share their experiences with the COVID-19 vaccine."
+      question: "Is the hackathon virtual or in-person?",
+      answer:
+        "The hackathon is set to take place in-person, and participants must be physically present at the venue throughout the event.",
     },
     {
-      question: "How do I share my experience?",
-      answer: "You can share your experience by clicking on the 'Share Your Experience' button on the navigation bar."
+      question: "Will food and drinks be provided?",
+      answer:
+        "We'll ensure participants have access to food and beverages throughout the hackathon to keep everyone active.",
     },
     {
-      question: "How do I view other people's experiences?",
-      answer: "You can view other people's experiences by clicking on the 'View Experiences' button on the navigation bar."
+      question: "How can I sign up for the hackathon?",
+      answer:
+        "To sign up, just go to our hackathon's Devfolio page on our website.",
     },
     {
-      question: "How do I contact the developers?",
-      answer: "You can contact the developers by clicking on the 'Contact Us' button on the navigation bar."
-    }
+      question: "Does registering for the hackathon involve any fees?",
+      answer:
+        "All bachelor's, master's, and other graduate degree students are welcome to register, and there is no registration fee.",
+    },
+    {
+      question: "What should I bring?",
+      answer:
+        "Attendees are required to bring their personal laptops, chargers, and any essential electronic devices, along with your college ID card for verification.",
+    },
+    {
+      question: "Do I need a team to apply?",
+      answer: "You can join or create a team of 4 members.",
+    },
+    {
+      question: "What is the deadline for applications?",
+      answer: "The application period closes on 25th January 2024",
+    },
+    {
+      question: "My question isn't listed here.",
+      answer:
+        "No problem! Feel free to contact us through our Discord server or via email at datasciencecommunitysrm@gmail.com, and we'll respond promptly!",
+    },
   ];
 
   return (
-    <section id="faq" className="p-4 flex justify-center flex-col items-center bg-primary">
-      <h1 className="text-5xl md:text-7xl font-extrabold text-center text-secondary mb-12">FAQ</h1>
-      {questions.map((question, index) => 
-        <div key={index} className="flex p-8 items-center">
-          <img src="/Accordion_Left.png" alt="accordion left"/>
-          <Accordion key={index} question={question.question} answer={question.answer} />
-          <img src="/Accordion_Right.png" alt="accordion right"/>
+    <section
+      id="faq"
+      className="p-4 flex justify-center flex-col items-center bg-primary"
+    >
+      <h1 className="text-5xl md:text-7xl font-extrabold text-center text-secondary mb-12">
+        FAQ
+      </h1>
+      {questions.map((question, index) => (
+        <div
+          key={index}
+          className="flex flex-col md:flex-row p-8 items-center md:items-start max-w-3xl mx-auto"
+        >
+          <img
+            src="/Accordion_Left.png"
+            alt="accordion left"
+            className="mb-4 md:mb-0"
+          />
+          <Accordion
+            key={index}
+            question={question.question}
+            answer={question.answer}
+          />
+          <img
+            src="/Accordion_Right.png"
+            alt="accordion right"
+            className="mb-4 md:mb-0"
+          />
         </div>
-      )}
+      ))}
     </section>
-  )
-}
+  );
+};
 
 export default FAQ;
