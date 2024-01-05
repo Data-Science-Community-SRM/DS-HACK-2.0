@@ -2,22 +2,26 @@ const data = [
     {
         title: "Platinum tier",
         sponsors: [
-            "/assets/polygon.png"
+            "/assets/devfolio.png",
+            
         ],
     },
     {
         title: "Gold tier",
         sponsors: [
-            "/assets/devfolio.png",
-            "/assets/replit.png",
-            "/assets/solana.png",
+            "/assets/gradvine.png",
+            "/assets/onboard.png",
+           
+           
         ]
     },
     {
         title: "Silver tier",
         sponsors: [
-            "/assets/gradvine.png",
-            "/assets/onboard.png",
+            "/assets/replit.png",
+            "/assets/solana.png",
+            "/assets/polygon.png"
+           
         ]
     }
 ]

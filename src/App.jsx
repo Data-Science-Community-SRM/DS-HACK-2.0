@@ -48,7 +48,7 @@ export default function App() {
         <Prizes/>
         <Schedule/>
         <FAQ/>
-        <Cheif/>
+        {/* <Cheif/> */}
         <Sponsors/>
         <Footer/>
       </div> 
