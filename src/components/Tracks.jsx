@@ -21,10 +21,10 @@ const Tracks = () => {
       details: "generative",
     },
     {
-      title: "Health",
+      title: "Data Science",
       description:
-        "How would you redefine the healthcare game?",
-      details: "health",
+        "Analyze, interpret, and visualize data to drive innovation and create impactful solutions.",
+      details: "datascience",
     },
     {
       title: "IOT",
