@@ -19,9 +19,54 @@ const Schedule = () => {
             description: "Hackathon Begins"
         },
         {
-            time: "12:00 PM",
-            title: "Workshop",
-            description: "Workshop"
+            time: "2:00 PM",
+            title: "Break 1",
+            description: "Lunch"
+        },
+        {
+            time: "4:00 PM",
+            title: "Mentor review 1",
+            description: ""
+        },
+        {
+            time: "8:00 PM",
+            title: "Break 2 ",
+            description: "Dinner"
+        },
+        {
+            time: "12:00 AM",
+            title: "Mentor review 2",
+            description: ""
+        },
+        {
+            time: "6:00 AM",
+            title: "Mentor review 3",
+            description: ""
+        },
+        {
+            time: "8:00 AM",
+            title: "Shortlisted teams announcement",
+            description: ""
+        },
+        {
+            time: "9:00 AM",
+            title: "Break 3",
+            description: "breakfast"
+        },
+        {
+            time: "10:00 AM",
+            title: "Final Submissions",
+            description: ""
+        },
+        {
+            time: "10:15 AM",
+            title: "Judges Assessment",
+            description: ""
+        },
+        {
+            time: "11:00 AM",
+            title: "Hackathon ends",
+            description: ""
         },
     ]
 
