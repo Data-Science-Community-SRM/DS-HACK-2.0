@@ -2,13 +2,13 @@ const data = [
     {
         title: "Platinum tier",
         sponsors: [
-            "/assets/devfolio.png"
+            "/assets/polygon.png"
         ],
     },
     {
         title: "Gold tier",
         sponsors: [
-            "/assets/gradvine.png",
+            "/assets/devfolio.png",
             "/assets/replit.png",
             "/assets/solana.png",
         ]
@@ -16,7 +16,6 @@ const data = [
     {
         title: "Silver tier",
         sponsors: [
-            "/assets/polygon.png",
             "/assets/gradvine.png",
             "/assets/onboard.png",
         ]
@@ -27,7 +26,7 @@ const Sponsors = () => {
     return (
         <section id="sponsors" className="section-bg justify-items-center">
             <div className="relative w-full h-full">
-                <div className="absolute right-0 z-0">
+                <div className="absolute right-0 z-0 invisible sm:visible">
                     <svg width="130" height="105" viewBox="0 0 130 105" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M102.985 23.5156L114.489 3.62411L137.496 3.62412L149 23.5156L137.496 43.4072L114.489 43.4071L102.985 23.5156Z" fill="#660066" />
                         <path d="M34.5112 22.9688L46.0149 3.07724L69.0223 3.07724L80.5259 22.9688L69.0223 42.8603L46.0149 42.8603L34.5112 22.9688Z" fill="#660066" />
@@ -51,7 +50,7 @@ const Sponsors = () => {
                                 <div className="grid grid-cols-1 mx-auto place-items-center sm:grid-flow-col auto-cols-max gap-4 p-4 w-fit">
                                     {tier.sponsors.map((sponsor, index) => {
                                         return (
-                                            <div key={index} className=" bg-[#660066] flex h-36 w-36 rounded-2xl">
+                                            <div key={index} className="bg-[url('/assets/placeholder.png')] flex h-36 w-36 rounded-2xl">
                                                 <img className="mx-auto object-contain p-2" src={sponsor} alt="sponsor" />
                                             </div>
                                         )
@@ -62,7 +61,7 @@ const Sponsors = () => {
                     })}
                 </div>
             </div>
-            <div>
+            <div className="invisible sm:visible">
                 <svg width="285" height="239" viewBox="0 0 285 239" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M51.3823 185.474L25.2867 230.751L-26.9044 230.751L-53 185.474L-26.9044 140.197L25.2867 140.197L51.3823 185.474Z" fill="#660066" />
                     <path d="M206.713 186.719L180.618 231.996L128.427 231.996L102.331 186.719L128.427 141.442L180.618 141.442L206.713 186.719Z" fill="#660066" />
