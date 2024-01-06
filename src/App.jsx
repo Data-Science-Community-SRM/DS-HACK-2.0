@@ -1,10 +1,11 @@
+import React from "react"
+
 import Landing from "./components/Landing"
 import About from "./components/About"
 import Tracks from "./components/Tracks"
 import Prizes from "./components/prizes/Prizes"
 import FAQ from "./components/FAQ"
-import Cheif from "./components/cheifGuest/Cheif"
-import Sponsors from "./components/sponsors/Sponsors"
+import Sponsors from "./components/Sponsors"
 import Footer from "./components/footer/Footer"
 import Schedule from "./components/Schedule"
 
@@ -18,6 +19,17 @@ export default function App() {
     { label: 'Contact Us', path: '#contact' },
   ];
 
+  React.useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
+
   return (
     <div className="drawer">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" /> 
@@ -30,7 +42,7 @@ export default function App() {
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
               </label>
             </div> 
-            <a href="/" className="btn btn-ghost text-xl"><img src="DSHackLogo.png" alt="DSC Logo" className="w-12 h-12"/></a>
+            <a href="/" className="btn btn-ghost"><img src="DSHackLogo.png" alt="DSC Logo" className="w-12 h-12"/></a>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
@@ -54,7 +66,7 @@ export default function App() {
       </div> 
       <div className="drawer-side">
         <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label> 
-        <ul className="menu p-4 w-80 min-h-full bg-base-200">
+        <ul className="menu p-4 w-80 min-h-full bg-secondary">
           {/* Sidebar content here */}
           {navItems.map((item, index) => <li key={index}><a href={item.path}>{item.label}</a></li> )} 
         </ul>

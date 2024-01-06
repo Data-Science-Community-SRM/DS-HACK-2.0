@@ -1,10 +1,9 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import Dialog from './Dialog';
 
 const Card = ({ title, description, details }) => {
   return (
-    <div className="card-container w-80 h-64 p-4 bg-secondary shadow-xl clip-2 flex justify-center items-center">
+    <div className="card-container w-64 h-64 p-4 bg-secondary shadow-xl clip-2 flex justify-center items-center">
       <div className="card">
         <div className="card-content flex flex-col justify-center items-center">
           <h2 className="card-title text-white mb-2">{title}</h2>

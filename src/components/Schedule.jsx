@@ -4,70 +4,25 @@ const Schedule = () => {
 
     const schedule = [
         {
-            time: "10:00 AM",
-            title: "Opening Ceremony",
-            description: "Opening Ceremony"
-        },
-        {
-            time: "10:30 AM",
-            title: "Keynote",
-            description: "Keynote"
-        },
-        {
-            time: "11:00 AM",
-            title: "Hackathon Begins",
-            description: "Hackathon Begins"
-        },
-        {
-            time: "2:00 PM",
-            title: "Break 1",
-            description: "Lunch"
-        },
-        {
-            time: "4:00 PM",
-            title: "Mentor review 1",
+            time: "20th January 2024",
+            title: "PPT Submission Deadline",
             description: ""
         },
         {
-            time: "8:00 PM",
-            title: "Break 2 ",
-            description: "Dinner"
-        },
-        {
-            time: "12:00 AM",
-            title: "Mentor review 2",
+            time: "25th January 2024",
+            title: "Shortlisted Teams Announcement",
             description: ""
         },
         {
-            time: "6:00 AM",
-            title: "Mentor review 3",
+            time: "1st February 2024",
+            title: "Offline Hackathon",
             description: ""
         },
         {
-            time: "8:00 AM",
-            title: "Shortlisted teams announcement",
+            time: "2nd February 2024",
+            title: "Winners Announcement",
             description: ""
-        },
-        {
-            time: "9:00 AM",
-            title: "Break 3",
-            description: "breakfast"
-        },
-        {
-            time: "10:00 AM",
-            title: "Final Submissions",
-            description: ""
-        },
-        {
-            time: "10:15 AM",
-            title: "Judges Assessment",
-            description: ""
-        },
-        {
-            time: "11:00 AM",
-            title: "Hackathon ends",
-            description: ""
-        },
+        }
     ]
 
 
