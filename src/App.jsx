@@ -1,12 +1,10 @@
-import React from "react"
-
 import Landing from "./components/Landing"
 import About from "./components/About"
 import Tracks from "./components/Tracks"
-import Prizes from "./components/prizes/Prizes"
+import Prizes from "./components/Prizes"
 import FAQ from "./components/FAQ"
 import Sponsors from "./components/Sponsors"
-import Footer from "./components/footer/Footer"
+import Footer from "./components/Footer"
 import Schedule from "./components/Schedule"
 
 export default function App() {
@@ -19,23 +17,23 @@ export default function App() {
     { label: 'Contact Us', path: '#contact' },
   ];
 
-  React.useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://apply.devfolio.co/v2/sdk.js';
-    script.async = true;
-    script.defer = true;
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    }
-  }, []);
+  // React.useEffect(() => {
+  //   const script = document.createElement('script');
+  //   script.src = 'https://apply.devfolio.co/v2/sdk.js';
+  //   script.async = true;
+  //   script.defer = true;
+  //   document.body.appendChild(script);
+  //   return () => {
+  //     document.body.removeChild(script);
+  //   }
+  // }, []);
 
   return (
     <div className="drawer">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" /> 
       <div className="drawer-content flex flex-col">
         {/* Navbar */}
-        <div className="navbar absolute top-2 left-1/2 -translate-x-1/2 z-10 bg-secondary rounded-full max-w-3xl text-white">
+        <div className="navbar absolute top-2 left-1/2 -translate-x-1/2 z-10 bg-secondary rounded-full max-w-3xl text-white heading">
           <div className="navbar-start">
             <div className="flex-none lg:hidden">
               <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
@@ -64,11 +62,12 @@ export default function App() {
         <Sponsors/>
         <Footer/>
       </div> 
-      <div className="drawer-side">
+      <div className="drawer-side z-50">
         <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label> 
-        <ul className="menu p-4 w-80 min-h-full bg-secondary">
+        <ul className="menu p-4 w-80 min-h-full bg-secondary heading">
           {/* Sidebar content here */}
-          {navItems.map((item, index) => <li key={index}><a href={item.path}>{item.label}</a></li> )} 
+          {navItems.map((item, index) => <li key={index}><a href={item.path} className="py-6 text-white">{item.label}</a></li> )} 
+          <li className="mx-auto my-8"><img src="/DSHackLogo.png" width={150} /></li>
         </ul>
       </div>
     </div>

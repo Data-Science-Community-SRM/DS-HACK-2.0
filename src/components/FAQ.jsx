@@ -38,38 +38,18 @@ const FAQ = () => {
     {
       question: "My question isn't listed here.",
       answer:
-        "No problem! Feel free to contact us through our Discord server or via email at datasciencecommunitysrm@gmail.com, and we'll respond promptly!",
+        `No problem! Feel free to contact us through our Discord server or via email at datasciencecommunitysrm@gmail.com, and we'll respond promptly!`,
     },
   ];
 
   return (
-    <section
-      id="faq"
-      className="p-4 flex justify-center flex-col items-center bg-primary"
-    >
-      <h1 className="text-5xl md:text-7xl font-extrabold text-center text-secondary mb-12">
-        FAQ
-      </h1>
+    <section id="faq" className="p-4 flex justify-center flex-col items-center bg-primary" >
+      <h1 className="text-5xl md:text-7xl font-extrabold text-center text-secondary mb-12 heading"> FAQ </h1>
       {questions.map((question, index) => (
-        <div
-          key={index}
-          className="flex flex-col md:flex-row p-8 items-center md:items-start max-w-3xl mx-auto"
-        >
-          <img
-            src="/Accordion_Left.png"
-            alt="accordion left"
-            className="mb-4 md:mb-0"
-          />
-          <Accordion
-            key={index}
-            question={question.question}
-            answer={question.answer}
-          />
-          <img
-            src="/Accordion_Right.png"
-            alt="accordion right"
-            className="mb-4 md:mb-0"
-          />
+        <div key={index} className="flex py-4 items-center justify-center hover:scale-105" >
+          <img src="/Accordion_Left.png" alt="accordion left" className="mb-4 md:mb-0 hidden md:block" />
+          <Accordion key={index} question={question.question} answer={question.answer} />
+          <img src="/Accordion_Right.png" alt="accordion right" className="mb-4 md:mb-0 hidden md:block" />
         </div>
       ))}
     </section>

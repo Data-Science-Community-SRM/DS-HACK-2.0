@@ -6,7 +6,7 @@ const Card = ({ title, description, details }) => {
     <div className="card-container w-64 h-64 p-4 bg-secondary shadow-xl clip-2 flex justify-center items-center">
       <div className="card">
         <div className="card-content flex flex-col justify-center items-center">
-          <h2 className="card-title text-white mb-2">{title}</h2>
+          <h2 className="card-title text-white mb-2 heading">{title}</h2>
           <figure>
             <img src={`/tracks/${title}.png`} width={100} alt={title} />
           </figure>
