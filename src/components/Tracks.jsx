@@ -1,49 +1,22 @@
 import Card from "./ui/Card";
+import tracks from "../data/tracks.json";
 
 const Tracks = () => {
-  const tracks = [
-    {
-      title: "Computer Vision",
-      description:
-        "Decode visuals, amplify creativity. Delve into the magic of pixels and unlock boundless possibilities in Computer Vision!",
-      details: "cv",
-    },
-    {
-      title: "NLP",
-      description:
-        "Dive into the realm of Natural Language Processing.",
-      details: "nlp",
-    },
-    {
-      title: "Generative AI",
-      description:
-        "Unleash the power of algorithms to create intricate and innovative solutions.s",
-      details: "generative",
-    },
-    {
-      title: "AI + Blockchain",
-      description:
-        "Unleash the power of AI+Blockchain to shape a decentralized world of intelligent solutions",
-      details: "datascience",
-    },
-    {
-      title: "IOT",
-      description:
-        "Innovate in the realm where  physical meets  digital",
-      details: "iot",
-    },
-    {
-      title: "Open Innovation",
-      description:
-        "Unleash your creative genius beyond the confines of predefined tracks. Explore your ideas and create something truly breathtaking.",
-      details: "open",
-    },
-  ];
-
   return (
-    <section id="tracks" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 place-items-center p-4 relative overflow-clip bg-primary">
-      <img src="/Tracks.png" alt="tracks" className="absolute right-0 top-1/2 -translate-y-1/2 hidden sm:block" />
-      <img src="/Tracks.png" alt="tracks" className="absolute left-0 top-1/2 -translate-y-1/2 rotate-180 hidden sm:block" />
+    <section
+      id="tracks"
+      className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 place-items-center p-4 relative overflow-clip bg-primary min-h-screen"
+    >
+      <img
+        src="/Tracks.png"
+        alt="tracks"
+        className="absolute right-0 top-1/2 -translate-y-1/2 hidden sm:block"
+      />
+      <img
+        src="/Tracks.png"
+        alt="tracks"
+        className="absolute left-0 top-1/2 -translate-y-1/2 rotate-180 hidden sm:block"
+      />
       <h1 className="col-span-full text-center text-5xl md:text-7xl font-extrabold text-secondary mb-4 heading">
         Tracks
       </h1>

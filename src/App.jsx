@@ -50,7 +50,9 @@ export default function App() {
             </ul>
           </div>
           <div className="navbar-end hidden lg:flex">
-            <img src="/DSC.png" alt="DSC Logo" className="w-12 h-12 rounded-full"/>
+            <a href="https://dscommunity.in" target="_blank" rel="noopener noreferrer" className="btn btn-circle btn-ghost">
+              <img src="/DSC.png" alt="DSC Logo" className="w-12 h-12 rounded-full hover:animate-spin transition duration-500 ease-in-out"/>
+            </a>
           </div>
         </div>
         {/* Page content here */}

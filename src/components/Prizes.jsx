@@ -21,7 +21,7 @@ const Prizes = () => {
       <h1 className="text-5xl md:text-7xl font-extrabold text-center text-white mb-16 heading z-10"> Prizes </h1>
       <div className="flex flex-col md:flex-row gap-16 justify-center items-center">
         {prizes.map((prize, index) => (
-          <div key={index} className={`hover:rotate-3 flex flex-col justify-center items-center p-4 clip-3 bg-primary ${index === 1 ? "scale-125": ''} text-secondary`}>
+          <div key={index} className={`hover:rotate-3 flex flex-col justify-center items-center p-4 clip-3 bg-primary ${index === 1 ? "scale-125": ''} text-secondary transform transition duration-300 ease-in-out`}>
             <img src="/Prize.png" alt="prize" className="w-48 h-48 mb-4"/>
             <h1 className="text-xl mb-4">{prize.title}</h1>
             <h1 className="text-3xl">{prize.prize}</h1>

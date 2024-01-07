@@ -1,0 +1,33 @@
+[
+    {
+      "title": "Computer Vision",
+      "description": "Decode visuals, amplify creativity. Delve into the magic of pixels and unlock boundless possibilities in Computer Vision!",
+      "details": "cv"
+    },
+    {
+      "title": "NLP",
+      "description": "Dive into the realm of Natural Language Processing.",
+      "details": "nlp"
+    },
+    {
+      "title": "Generative AI",
+      "description": "Unleash the power of algorithms to create intricate and innovative solutions.s",
+      "details": "generative"
+    },
+    {
+      "title": "AI + Blockchain",
+      "description": "Unleash the power of AI+Blockchain to shape a decentralized world of intelligent solutions",
+      "details": "datascience"
+    },
+    {
+      "title": "IOT",
+      "description": "Innovate in the realm where physical meets digital",
+      "details": "iot"
+    },
+    {
+      "title": "Open Innovation",
+      "description": "Unleash your creative genius beyond the confines of predefined tracks. Explore your ideas and create something truly breathtaking.",
+      "details": "open"
+    }
+  ]
+  
