@@ -8,12 +8,12 @@ const Landing = () => {
           <h1 className="mb-5 text-5xl md:text-6xl font-bold">DS Hack 2.0</h1>
           <p className="text-xl md:text-2xl">Dive Deep Hack High</p>
           <p className="mb-5 text-lg md:text-md">Elevate Automation with Deep Learning</p>
-          {/* <div 
+          <div 
             className="apply-button" 
             data-hackathon-slug="ds-hack" 
             data-button-theme="light"
             style={{height: "44px", width: "312px"}}
-          ></div> */}
+          ></div>
         </div>
       </div>
     </section>

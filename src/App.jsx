@@ -1,3 +1,5 @@
+import React from "react"
+
 import Landing from "./components/Landing"
 import About from "./components/About"
 import Tracks from "./components/Tracks"
@@ -17,16 +19,16 @@ export default function App() {
     { label: 'Contact Us', path: '#contact' },
   ];
 
-  // React.useEffect(() => {
-  //   const script = document.createElement('script');
-  //   script.src = 'https://apply.devfolio.co/v2/sdk.js';
-  //   script.async = true;
-  //   script.defer = true;
-  //   document.body.appendChild(script);
-  //   return () => {
-  //     document.body.removeChild(script);
-  //   }
-  // }, []);
+  React.useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
 
   return (
     <div className="drawer">

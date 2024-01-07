@@ -44,6 +44,8 @@ const FAQ = () => {
 
   return (
     <section id="faq" className="p-4 flex justify-center flex-col items-center bg-primary" >
+      <img src="/Hexagon.png" alt="DSC" className="absolute -top-5 -left-5 w-48 md:w-64" />
+      <img src="/Hexagon.png" alt="DSC" className="absolute -bottom-5 -right-5 w-48 md:w-64 rotate-180" />
       <h1 className="text-5xl md:text-7xl font-extrabold text-center text-secondary mb-12 heading"> FAQ </h1>
       {questions.map((question, index) => (
         <div key={index} className="flex py-4 items-center justify-center hover:scale-105" >
