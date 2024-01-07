@@ -6,7 +6,7 @@ const About = () => {
     >
       <img src="/About.png" className="max-w-4xl absolute" />
       <p className="z-10 text-center max-w-4xl px-4 py-8 bg-primary text-black clip text-xs md:text-lg">
-        <strong className="text-5xl">&apos;24 Edition</strong>
+        <strong className="text-5xl heading">&apos;24 Edition</strong>
         <br /><br />
         DSC SRM is back with DS Hack2.0 ! This edition focuses on the
         groundbreaking fusion of deep learning and machine automation, pushing

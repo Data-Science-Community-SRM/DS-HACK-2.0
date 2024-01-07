@@ -44,7 +44,7 @@ const Tracks = () => {
     <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 place-items-center p-4 relative overflow-clip">
       <img src="/Tracks.png" alt="tracks" className="absolute right-0 top-1/2 -translate-y-1/2" />
       <img src="/Tracks.png" alt="tracks" className="absolute left-0 top-1/2 -translate-y-1/2 rotate-180" />
-      <h1 className="col-span-full text-center text-5xl md:text-7xl font-extrabold text-secondary mb-4">
+      <h1 className="col-span-full text-center text-5xl md:text-7xl font-extrabold text-secondary mb-4 heading">
         Tracks
       </h1>
       {tracks.map((track, index) => (

@@ -2,11 +2,11 @@ import PropTypes from "prop-types"
 
 const Accordion = ({question, answer}) => {
     return (
-        <div className="max-w-5xl ml-8 collapse collapse-arrow bg-secondary text-white">
+        <div className="max-w-md md:ml-8 collapse collapse-arrow bg-secondary text-white">
             <input type="radio" name="my-accordion-2" />  
-            <div className="collapse-title text-xl font-extralight">{question}</div>
-            <div className="collapse-content"> 
-                <p>{answer}</p>
+            <div className="collapse-title text-xl font-bold">{question}</div>
+            <div className="collapse-content overflow-x-scroll"> 
+                <p className="">{answer}</p>
             </div>
         </div>
     )
