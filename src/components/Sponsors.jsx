@@ -24,14 +24,14 @@ const data = [
 
 const Sponsors = () => {
     return (
-        <section id="sponsors" className="section-bg justify-items-center">
+        <section id="sponsors" className="section-bg justify-items-center bg-primary">
             <div className="relative w-full h-full">
-                <h2 className="section-title text-4xl text-center p-16 z-40 sm:text-8xl">Sponsors</h2>
+                <h1 className="text-5xl md:text-7xl font-extrabold text-center text-secondary mb-12 heading"> Sponsors </h1>
                 <div className="items-center p-2 mb-12">
                     {data.map((tier, index) => {
                         return (
                             <div key={index} className="">
-                                <h2 className="tier-title text-2xl text-center p-2 z-40 sm:text-4xl">{tier.title}</h2>
+                                <h2 className="tier-title text-xl md:text-2xl text-center p-2 z-40 heading text-secondary">{tier.title}</h2>
                                 <div className="grid grid-cols-1 mx-auto place-items-center sm:grid-flow-col auto-cols-max gap-4 p-4 w-fit">
                                     {tier.sponsors.map((sponsor, index) => {
                                         return (

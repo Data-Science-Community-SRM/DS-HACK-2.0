@@ -9,12 +9,12 @@ const Schedule = () => {
             description: ""
         },
         {
-            time: "20th January 2024",
+            time: "25th January 2024",
             title: "PPT Submission Deadline",
             description: ""
         },
         {
-            time: "25th January 2024",
+            time: "26th January 2024",
             title: "Shortlisted Teams Announcement",
             description: ""
         },

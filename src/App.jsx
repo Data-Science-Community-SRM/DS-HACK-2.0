@@ -64,10 +64,10 @@ export default function App() {
       </div> 
       <div className="drawer-side z-50">
         <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label> 
-        <ul className="menu p-4 w-80 min-h-full bg-secondary heading">
+        <ul className="menu p-4 min-w-52 min-h-full bg-secondary heading">
           {/* Sidebar content here */}
           {navItems.map((item, index) => <li key={index}><a href={item.path} className="py-6 text-white">{item.label}</a></li> )} 
-          <li className="mx-auto my-8"><img src="/DSHackLogo.png" width={150} /></li>
+          <li className="mx-auto mt-4"><img src="/DSHackLogo.png" width={100} /></li>
         </ul>
       </div>
     </div>

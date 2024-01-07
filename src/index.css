@@ -9,6 +9,10 @@
 .clip-2{
   clip-path: polygon(0 0, 100% 0, 100% 16%, 100% 70%, 75% 100%, 16% 100%, 0 100%, 0% 30%);
 }
+.clip-3{
+  clip-path: polygon(25% 0%, 75% 0%, 100% 30%, 100% 100%, 0 100%, 0 30%);
+}
+
 .heading{
   font-family: "Orbitron", sans-serif;
 }
