@@ -43,12 +43,12 @@ const FAQ = () => {
   ];
 
   return (
-    <section id="faq" className="p-4 flex justify-center flex-col items-center bg-primary relative overflow-hidden -z-10" >
-      <img src="/Hexagon.png" alt="DSC" className="absolute -top-1 -left-10 w-48 md:w-64 -z-10 opacity-60" />
+    <section id="faq" className="p-4 flex justify-center flex-col items-center bg-primary relative overflow-hidden" >
+      <img src="/Hexagon.png" alt="DSC" className="absolute -top-1 -left-10 w-48 md:w-64 opacity-60" />
       <img src="/Hexagon.png" alt="DSC" className="absolute bottom-0 -left-10 w-48 md:w-64 -rotate-90 opacity-60" />
-      <img src="/Hexagon.png" alt="DSC" className="absolute -top-1 -right-10 w-48 md:w-64 rotate-90 -z-10 opacity-60" />
+      <img src="/Hexagon.png" alt="DSC" className="absolute -top-1 -right-10 w-48 md:w-64 rotate-90 opacity-60" />
       <img src="/Hexagon.png" alt="DSC" className="absolute -bottom-1 -right-5 w-48 md:w-64 rotate-180 opacity-60" />
-      <h1 className="text-5xl md:text-7xl font-extrabold text-center text-secondary mb-12 heading"> FAQ </h1>
+      <h1 className="text-5xl md:text-7xl font-extrabold text-center text-secondary mb-12 heading z-10"> FAQ </h1>
       {questions.map((question, index) => (
         <div key={index} className="flex py-4 items-center justify-center hover:scale-105" >
           <img src="/Accordion_Left.png" alt="accordion left" className="mb-4 md:mb-0 hidden md:block" />

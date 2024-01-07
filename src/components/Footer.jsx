@@ -1,21 +1,19 @@
 const Footer = () => {
   return (
-    <>
-      <footer className="relative w-full h-[35vh] bg-[#800080] flex flex-col items-center justify-center gap-y-16">
-        <img
-          src="/DSCLogo.png"
-          alt="DSCLogo"
-          className=" w-[50vw] sm:w-[50vw] md:w-[20vw]"
-        />
-        <div className="w-full h-10  flex items-center justify-center gap-5 sm:gap-5 md:gap-10">
-          <div className="h-10 w-10 rounded-full bg-[#D896FF]"></div>
-          <div className="h-10 w-10 rounded-full bg-[#D896FF]"></div>
-          <div className="h-10 w-10 rounded-full bg-[#D896FF]"></div>
-          <div className="h-10 w-10 rounded-full bg-[#D896FF]"></div>
-          <div className="h-10 w-10 rounded-full bg-[#D896FF]"></div>
+    <footer className="footer px-10 py-4 text-base-content bg-secondary">
+      <aside className="items-center grid-flow-col gap-4">
+        <img src="/DSHackLogo.png" width={80}/>
+        <img src="/DSCLogo.png" width={200}/>
+      </aside> 
+      <nav className="md:place-self-center md:justify-self-end ">
+        <div className="grid grid-flow-col gap-4 items-center">
+          <a href=""><img src="/socials/discord.png" width={40}/></a>
+          <a href=""><img src="/socials/instagram.png" width={30}/></a>
+          <a href=""><img src="/socials/facebook.png" width={30}/></a>
+          <a href=""><img src="/socials/twitter.png" width={30}/></a>
         </div>
-      </footer>
-    </>
+      </nav>
+    </footer>
   )
 }
 
