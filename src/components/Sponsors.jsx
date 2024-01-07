@@ -24,7 +24,8 @@ const data = [
 const Sponsors = () => {
     console.log(data)
     return (
-        <section id="sponsors" className="section-bg justify-items-center bg-primary">
+        <section id="sponsors" className="section-bg justify-items-center bg-primary relative -z-10 py-12">
+            <img src="/HexagonFull.png" alt="DSC" className="absolute top-1/2 right-0 w-48 md:w-64 -z-10 rotate-180 opacity-60" />
             <div className="relative w-full h-full">
                 <h1 className="text-5xl md:text-7xl font-extrabold text-center text-secondary mb-12 heading"> Sponsors </h1>
                 <div className="items-center p-2 mb-12">

@@ -11,8 +11,8 @@ const Landing = () => {
           <div 
             className="apply-button" 
             data-hackathon-slug="ds-hack" 
-            data-button-theme="light"
-            style={{height: "44px", width: "312px"}}
+            data-button-theme="dark-inverted"
+            style={{height: "44px", width: "256px", backgroundColor: 'none'}}
           ></div>
         </div>
       </div>
