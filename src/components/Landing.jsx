@@ -10,7 +10,7 @@ const Landing = () => {
           <p className="mb-5 text-lg md:text-md">Elevate Automation with Deep Learning</p>
           <div 
             className="apply-button" 
-            data-hackathon-slug="ds-hack" 
+            data-hackathon-slug="ds-hack-2-dsc" 
             data-button-theme="dark-inverted"
             style={{height: "44px", width: "256px", backgroundColor: 'none'}}
           ></div>
