@@ -37,72 +37,26 @@ export default function App() {
         <div className="navbar absolute top-2 left-1/2 -translate-x-1/2 z-10 bg-secondary rounded-full max-w-3xl text-white heading">
           <div className="navbar-start">
             <div className="flex-none lg:hidden">
-              <label
-                htmlFor="my-drawer-3"
-                aria-label="open sidebar"
-                className="btn btn-square btn-ghost"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  className="inline-block w-6 h-6 stroke-current"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M4 6h16M4 12h16M4 18h16"
-                  ></path>
+              <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost" >
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current" >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" ></path>
                 </svg>
               </label>
             </div>
             <div className="flex w-full absolute justify-between px-10 sm:px-10 md:px-0 sm:absolute md:relative items-center ">
               <a href="/" className="btn btn-ghost">
-                <img
-                  src="DSHackLogo.png"
-                  alt="DSC Logo"
-                  className="w-12 h-12"
-                />
+                <img src="DSHackLogo.png" alt="DSC Logo" className="w-12 h-12" />
               </a>
-              <img
-                src="/CTech.png"
-                alt="DSC Logo"
-                className="w-20 h-auto rounded-full hover:animate-spin transition duration-500 ease-in-out block sm:block md:hidden"
-              />
-              <img
-                src="/SRM.png"
-                alt="DSC Logo"
-                className="w-20 sm:w-20 md:w-14 h-auto sm:h-auto md:h-auto rounded-full hover:animate-spin transition duration-500 ease-in-out"
-              />
             </div>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
-              {navItems.map((item, index) => (
-                <li key={index}>
-                  <a href={item.path}>{item.label}</a>
-                </li>
-              ))}
+              {navItems.map((item, index) => <li key={index}> <a href={item.path}>{item.label}</a> </li>)}
             </ul>
           </div>
           <div className="navbar-end hidden lg:flex">
-            <img
-              src="/CTech.png"
-              alt="DSC Logo"
-              className="w-12 h-auto rounded-full hover:animate-spin transition duration-500 ease-in-out hidden sm:hidden md:block"
-            />
-            <a
-              href="https://dscommunity.in"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-circle btn-ghost"
-            >
-              <img
-                src="/DSC.png"
-                alt="DSC Logo"
-                className="w-12 h-12 rounded-full hover:animate-spin transition duration-500 ease-in-out"
-              />
+            <a href="https://dscommunity.in" target="_blank" rel="noopener noreferrer" className="btn btn-circle btn-ghost" >
+              <img src="/DSC.png" alt="DSC Logo" className="w-12 h-12 rounded-full hover:animate-spin transition duration-500 ease-in-out" />
             </a>
           </div>
         </div>
@@ -118,11 +72,7 @@ export default function App() {
         <Footer />
       </div>
       <div className="drawer-side z-50">
-        <label
-          htmlFor="my-drawer-3"
-          aria-label="close sidebar"
-          className="drawer-overlay"
-        ></label>
+        <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay" ></label>
         <ul className="menu p-4 min-w-52 min-h-full bg-secondary heading">
           {/* Sidebar content here */}
           {navItems.map((item, index) => (
@@ -132,9 +82,7 @@ export default function App() {
               </a>
             </li>
           ))}
-          <li className="mx-auto mt-4">
-            <img src="/DSHackLogo.png" width={100} />
-          </li>
+          <li className="mx-auto mt-4"> <img src="/DSHackLogo.png" width={100} /> </li>
         </ul>
       </div>
     </div>

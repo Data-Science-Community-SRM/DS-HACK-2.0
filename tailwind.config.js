@@ -10,6 +10,15 @@ export default {
         "primary": "#EFBBFF",
         "secondary": "#660066",
       },
+      animation: {
+        'infinite-scroll': 'infinite-scroll 25s linear infinite',
+      },
+      keyframes: {
+        'infinite-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(calc(-100% * 6))' },
+        },
+      },
     },
   },
   plugins: [require("daisyui")],

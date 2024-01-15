@@ -1,35 +1,7 @@
 import Timestamp from "./ui/Timestamp";
+import schedule from "../data/schedule";
 
 const Schedule = () => {
-
-    const schedule = [
-        {
-            time: "1st January 2024",
-            title: "Round 1 - Registrations Open",
-            description: ""
-        },
-        {
-            time: "25th January 2024",
-            title: "PPT Submission Deadline",
-            description: ""
-        },
-        {
-            time: "26th January 2024",
-            title: "Shortlisted Teams Announcement",
-            description: ""
-        },
-        {
-            time: "1st February 2024",
-            title: "Round 2 - 24Hr Offline Hackathon",
-            description: "at SRM Institute of Science and Technology, Kattankulathur Campus"
-        },
-        {
-            time: "2nd February 2024",
-            title: "Winners Announcement",
-            description: ""
-        }
-    ]
-
 
     return (
         <section id="schedule" className="bg-primary text-secondary p-4">
