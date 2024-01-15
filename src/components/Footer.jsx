@@ -6,7 +6,7 @@ const Footer = () => {
         <img src="/DSCLogo.png" width={200} />
       </aside>
       <div className="md:place-self-center md:justify-self-end w-full">
-        <div className="w-full flex flex-row items-center md:justify-end gap-5 justify-around">
+        <div className="w-full flex flex-row items-center md:justify-end gap-5 justify-around invert">
           <a href="https://discord.gg/JDEEYWThGX">
             <img src="/socials/discord.png" width={40} />
           </a>

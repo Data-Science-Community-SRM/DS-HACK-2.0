@@ -8,6 +8,7 @@ import FAQ from "./components/FAQ"
 import Sponsors from "./components/Sponsors"
 import Footer from "./components/Footer"
 import Schedule from "./components/Schedule"
+import Chief from "./components/Chief"
 
 export default function App() {
   const navItems = [
@@ -67,7 +68,7 @@ export default function App() {
         <Prizes />
         <Schedule />
         <FAQ />
-        {/* <CheifGuest/> */}
+        <Chief/>
         <Sponsors />
         <Footer />
       </div>

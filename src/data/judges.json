@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Suresh Kumar",
+    "company": "Accenture",
+    "designation": "Senior AI/Ml Engineer",
+    "linkedin": "https://www.linkedin.com/in/sureshkumar-ramasamy-a2890466",
+    "image": "/judges/Suresh.jpeg",
+    "companyLogo": "/companies/accenture.png"
+  }, {
+    "name": "Ihsan Jabarullah",
+    "company": "Amazon",
+    "designation": "Business Analyst Interim",
+    "linkedin": "https://www.linkedin.com/in/ihsan-jabarullah-a2979810b",
+    "image": "/judges/Ihsan.jpeg",
+    "companyLogo": "/companies/amazon.webp"
+  }
+]
