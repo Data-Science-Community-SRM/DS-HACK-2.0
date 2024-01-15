@@ -2,21 +2,22 @@ const data = [
     {
         title: "Platinum tier",
         sponsors: [
-            {src: "/sponsors/devfolio.png", alt: "DEVFOLIO LOGO"},            
+            {src: "/sponsors/devfolio.png", alt: "DEVFOLIO LOGO"},  
+            {src: "/sponsors/onboard.png", alt: "ONBOARD LOGO"},
         ],
     },
     {
         title: "Gold tier",
         sponsors: [
-            {src: "/sponsors/gradvine.png", alt: "GRADVINE LOGO"},
-            {src: "/sponsors/onboard.png", alt: "ONBOARD LOGO"},
+            {src: "/sponsors/2IIM.png", alt: "2IIM LOGO"},
         ]
     },
     {
         title: "Silver tier",
         sponsors: [
             {src: "/sponsors/replit.png", alt: "REPLIT LOGO"},
-            {src: "/sponsors/polygon.png", alt: "POLYGON LOGO"},           
+            {src: "/sponsors/polygon.png", alt: "POLYGON LOGO"},    
+            {src: "/sponsors/gradvine.png", alt: "GRADVINE LOGO"},
         ]
     }
 ]
