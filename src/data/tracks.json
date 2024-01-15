@@ -1,33 +1,27 @@
 [
     {
       "title": "Computer Vision",
-      "description": "Decode visuals, amplify creativity. Delve into the magic of pixels and unlock boundless possibilities in Computer Vision!",
-      "details": "cv"
+      "description": "Computer vision is a field of artificial intelligence that enables computers to see, identify, and process images in the same way that humans do. It is used in a wide range of applications, from self-driving cars to medical imaging. Solve real-world problems using CV."
     },
     {
       "title": "NLP",
-      "description": "Dive into the realm of Natural Language Processing.",
-      "details": "nlp"
+      "description": "Natural language processing (NLP) is a field of artificial intelligence that enables computers to understand, interpret, and manipulate human language. It is used in a wide range of applications, from chatbots to machine translation. Solve real-world problems using NLP."
     },
     {
       "title": "Generative AI",
-      "description": "Unleash the power of algorithms to create intricate and innovative solutions.s",
-      "details": "generative"
+      "description": "Generative AI is one of the most exciting advances in artificial intelligence technology. Using GANs (generative adversarial networks) and other methods, it is now possible to generate realistic looking images and video, as well as other data such as text. This opens up a whole new world of possibilities for the future of AI, and we invite you to explore this field and develop your own generative models."
     },
     {
-      "title": "AI+Blockchain",
-      "description": "Unleash the power of AI+Blockchain to shape a decentralized world of intelligent solutions",
-      "details": "datascience"
+      "title": "Federated Learning",
+      "description": "Federated learning is a new approach to machine learning that allows multiple parties to train a model without sharing their data. This is a promising technique for privacy-preserving machine learning, and we invite you to explore this field and develop your own federated learning models."
     },
     {
-      "title": "IOT",
-      "description": "Innovate in the realm where physical meets digital",
-      "details": "iot"
+      "title": "Internet Of Things",
+      "description": "The Internet of Things (IoT) is a network of physical objects that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the Internet. Explore the world of IoT and build your own IoT applications."
     },
     {
       "title": "Open Innovation",
-      "description": "Unleash your creative genius beyond the confines of predefined tracks. Explore your ideas and create something truly breathtaking.",
-      "details": "open"
+      "description": "Unleash your creative genius beyond the confines of predefined tracks. Explore your ideas and create something truly breathtaking."
     }
-  ]
+]
   

@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Time Series Forecasting",
+        "description": "Time series forecasting is the process of predicting future values of a time series based on past observations. It is a common task in many industries, including finance, retail, and manufacturing. Time series forecasting can be used to predict sales, inventory levels, and other business metrics. It can also be used to predict the weather, stock prices, and other non-business metrics. Time series forecasting is a challenging problem because it requires predicting the future based on past observations, which are often noisy and incomplete. There are many different approaches to time series forecasting, including autoregressive models, moving average models, and neural networks."
+    },
+    {
+        "title": "Data Storytelling through Information Visualizations",
+        "description": "Data storytelling is the process of translating data analyses into layman’s terms in order to influence a business decision or action. It is a structured approach for communicating data insights through visualizations, which can be used to support decision-making. Data storytelling is a combination of three key elements: data, visuals, and narrative. Data is the foundation of the story, visuals are used to communicate the insights, and narrative is the glue that holds it all together."
+    },
+    {
+        "title": "Quantum Machine Learning API's",
+        "description": "Quantum Machine Learning API's are a set of tools that allow developers to build and train quantum models using high-level programming languages like Python. These API's are designed to be intuitive and easy-to-use, allowing developers to focus on the machine learning task at hand rather than the underlying quantum mechanics. The QML API's are built on top of the PennyLane quantum machine learning library, which provides a unified interface for working with quantum computers and simulators."
+    },
+    {
+        "title": "LLM's for Legal Service",
+        "description": "Legal Language Models are advanced natural language processing models tailored specifically for understanding and generating legal text. These models can be utilized in various legal applications, including contract review, legal document summarization, legal research, and more. LLMs, often built upon transformer architectures, demonstrate the ability to comprehend the intricacies of legal language and can assist legal professionals in streamlining document analysis and decision-making processes. Integrating Legal Language Models into legal services has the potential to enhance efficiency, accuracy, and overall productivity within the legal industry."
+    },
+    {
+        "title": "Recommendation Engines using Reinforcement learning",
+        "description": "Recommendation engines are a type of machine learning model that provide personalized recommendations to users based on their past behavior. They are commonly used in e-commerce, social media, and entertainment applications to help users discover new products or content. Recommendation engines can be built using a variety of machine learning techniques, including reinforcement learning. Reinforcement learning is a type of machine learning that uses rewards and punishments to train an agent to perform a task. In the context of recommendation engines, reinforcement learning can be used to train an agent to recommend items to users based on their preferences and past behavior."
+    },
+    {
+        "title": "Multi-Modal Analytics",
+        "description": "Multi-modal analytics involves integrating and analyzing data from diverse sources or modalities, such as text, images, videos, and sensor data, to gain comprehensive insights and context. It is a powerful approach for understanding complex phenomena and making informed decisions. Multi-modal analytics can be used in a variety of applications, including healthcare, finance, and manufacturing. It is also used in the field of artificial intelligence to build more intelligent systems that can understand and interact with humans in a natural way."
+    }
+]
