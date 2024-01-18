@@ -13,5 +13,13 @@
     "linkedin": "https://www.linkedin.com/in/ihsan-jabarullah-a2979810b",
     "image": "/judges/Ihsan.jpeg",
     "companyLogo": "/companies/amazon.webp"
+  },
+  {
+    "name": "Ananth Kumar",
+    "company": "DEI",
+    "designation": "Cheif Innovation Officer",
+    "linkedin": "https://www.linkedin.com/in/ananth-kumar-india/",
+    "image": "/judges/ananth.jpg",
+    "companyLogo": "/companies/SRM.png"
   }
 ]
