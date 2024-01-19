@@ -6,7 +6,8 @@
     "linkedin": "https://www.linkedin.com/in/sureshkumar-ramasamy-a2890466",
     "image": "/judges/Suresh.jpeg",
     "companyLogo": "/companies/accenture.png"
-  }, {
+  },
+  {
     "name": "Ihsan Jabarullah",
     "company": "Amazon",
     "designation": "Business Analyst Interim",
@@ -17,9 +18,17 @@
   {
     "name": "Ananth Kumar",
     "company": "DEI",
-    "designation": "Cheif Innovation Officer",
+    "designation": "Chief Innovation Officer",
     "linkedin": "https://www.linkedin.com/in/ananth-kumar-india/",
     "image": "/judges/ananth.jpg",
     "companyLogo": "/companies/SRM.png"
+  },
+  {
+    "name": "Sudarsun Santhiappan",
+    "company": "BUDDI AI ",
+    "designation": "Chief Scientific Officer",
+    "linkedin": "https://www.linkedin.com/in/sudarsun?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    "image": "/judges/sudarsun.jpeg",
+    "companyLogo": "/companies/buddiAI.jpeg"
   }
 ]

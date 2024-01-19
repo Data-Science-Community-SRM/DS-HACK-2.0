@@ -61,10 +61,10 @@ const Chief = () => {
         className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 max-w-5xl grayscale"
       />
       <h1 className="text-5xl md:text-7xl font-extrabold text-center  mb-16 heading z-10 text-primary">
-        JUDGES
+        CHIEF GUESTS
       </h1>
 
-      <div className="relative w-full flex flex-col sm:flex-col md:flex-row  items-center justify-around gap-x-20 gap-y-28">
+      <div className="relative w-full flex flex-col sm:flex-col md:flex-row  items-center justify-around gap-x-16 gap-y-28 px-16 ">
         {judgeData.map((judge, index) => (
           <Judge key={index} {...judge} />
         ))}
