@@ -1,6 +1,6 @@
-import judgeData from "../data/judges.json";
+import judgeData from "../data/judges.json"
 
-import PropTypes from "prop-types";
+import PropTypes from "prop-types"
 
 const Judge = ({
   name,
@@ -15,7 +15,7 @@ const Judge = ({
       <img
         src={companyLogo}
         alt={`${company} Logo`}
-        className="absolute -left-12 -top-4 w-44 bg-primary p-2 rounded-md z-10"
+        className="absolute -left-3 -top-7 w-44 bg-primary p-2 rounded-md z-10"
       />
       <div className="text-center max-w-4xl px-4 py-8 bg-primary text-black clip text-xs md:text-lg relative">
         <img
@@ -29,7 +29,11 @@ const Judge = ({
           rel="noopener noreferrer"
           className="text-secondary underline flex items-center justify-center mt-2"
         >
-          <img src="/socials/linkedin.png" alt="linkedin" className="bg-secondary rounded w-8 h-8 mr-2 transform transition-transform hover:scale-105" />
+          <img
+            src="/socials/linkedin.png"
+            alt="linkedin"
+            className="bg-secondary rounded w-8 h-8 mr-2 transform transition-transform hover:scale-105"
+          />
         </a>
       </div>
       <h1 className="text-4xl text-center mt-4 text-primary font-orbitron">
@@ -40,9 +44,8 @@ const Judge = ({
         {designation}
       </p>
     </div>
-  );
-};
-
+  )
+}
 
 const Chief = () => {
   return (
@@ -58,19 +61,19 @@ const Chief = () => {
         className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 max-w-5xl grayscale"
       />
       <h1 className="text-5xl md:text-7xl font-extrabold text-center  mb-16 heading z-10 text-primary">
-        JUDGES
+        CHIEF GUESTS
       </h1>
 
-      <div className="relative w-full flex flex-col sm:flex-col md:flex-row  items-center justify-around gap-x-20 gap-y-28">
+      <div className="relative w-full flex flex-col sm:flex-col md:flex-row  items-center justify-around gap-x-16 gap-y-28 px-16 ">
         {judgeData.map((judge, index) => (
           <Judge key={index} {...judge} />
         ))}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Chief;
+export default Chief
 
 Judge.propTypes = {
   name: PropTypes.string.isRequired,
@@ -79,4 +82,4 @@ Judge.propTypes = {
   linkedin: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
   companyLogo: PropTypes.string.isRequired,
-};
+}
