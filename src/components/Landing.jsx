@@ -26,13 +26,13 @@ const Landing = () => {
                 data-hackathon-slug="ds-hack"
                 data-button-theme="dark-inverted"
                 style={{
-                  height: "44px",
+                  height: "40px",
                   width: "256px",
                   backgroundColor: "none",
                 }}
               ></div>
               <a
-                className="bg-white w-full h-12 flex items-center justify-center gap-5 hover:bg-[#5865f2] transition-all duration-300 ease-in-out group"
+                className="bg-white w-full flex items-center justify-center gap-5 hover:bg-[#5865f2] transition-all duration-300 ease-in-out group"
                 href={discordInvite}
                 target="_blank"
                 rel="noreferrer"
