@@ -1,5 +1,7 @@
-import Countdown from "./ui/Countdown"
-import updates from "../data/updates"
+import Countdown from "./ui/Countdown";
+import updates from "../data/updates";
+
+const discordInvite = "https://discord.gg/NH7upGY7QB";
 
 const Landing = () => {
   return (
@@ -18,22 +20,32 @@ const Landing = () => {
             <p className="mb-5 text-lg md:text-md">
               Elevate Automation with Deep Learning
             </p>
-            <div
-              className="apply-button"
-              data-hackathon-slug="ds-hack"
-              data-button-theme="dark-inverted"
-              style={{
-                height: "44px",
-                width: "256px",
-                backgroundColor: "none",
-              }}
-            ></div>
-            <a href="https://discord.gg/HdqPvDA5">
-              <button className="bg-white mt-5 w-[85vw] sm:w-[85vw] md:w-[22vw] h-12 flex gap-10 items-center justify-center">
-                <img src="/Discord.png" alt="discord" className="w-10 h-10" />
-                <p className="text-primary font-bold text-lg">Join Discord</p>
-              </button>
-            </a>
+            <div className="flex flex-col items-center gap-4">
+              <div
+                className="apply-button"
+                data-hackathon-slug="ds-hack"
+                data-button-theme="dark-inverted"
+                style={{
+                  height: "44px",
+                  width: "256px",
+                  backgroundColor: "none",
+                }}
+              ></div>
+              <a
+                className="bg-white w-full h-12 flex items-center justify-center gap-5 hover:bg-[#5865f2] transition-all duration-300 ease-in-out group"
+                href={discordInvite}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="/Discord.png"
+                  alt="discord"
+                  className="w-10 h-10 group-hover:filter group-hover:brightness-0"
+                />
+                <p className="text-secondary text-xl">Join Discord</p>
+              </a>
+            </div>
+
             <Countdown />
           </div>
         </div>
@@ -47,7 +59,7 @@ const Landing = () => {
         </marquee>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default Landing
+export default Landing;
