@@ -15,7 +15,7 @@ const data = [
     {
         title: "Silver tier",
         sponsors: [
-            {src: "/sponsors/replit.png", alt: "REPLIT LOGO", link: "https://replit.com/"},
+            {src: "/sponsors/replit-light.png", alt: "REPLIT LOGO", link: "https://replit.com/"},
             {src: "/sponsors/polygon.png", alt: "POLYGON LOGO", link: "https://polygon.technology/"},
             {src: "/sponsors/gradvine.png", alt: "GRADVINE LOGO", link: "https://gradvine.com/"},
         ]
